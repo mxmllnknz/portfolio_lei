@@ -1,0 +1,81 @@
+<main>
+    <section class='intro'>
+        <div id='top-left-img'>
+        <img src='https://unsplash.it/600/300' class='hidden'/>
+        <img src='https://picsum.photos/600/300' class='hidden'/>
+        </div>
+
+        <div id='top-right-img'>
+        <img src='https://unsplash.it/700/900' class='hidden' />
+        </div>
+
+        <div id='bottom-left-img'>
+            <img src='https://unsplash.it/700/700' class='hidden' />
+            <img src='https://unsplash.it/400/200' class='hidden' />
+        </div>
+        
+        <div class='center-wh'>
+        <%= image_tag "lei-profile.jpg", alt: "Picture of Leilani", :class => "profile-img" %>
+        
+        <h1>Hi, my name is Leilani</h1>
+        </div>
+    </section>
+    <div class='projects-outer-container'>  
+        <h2 class='project-header'>I'm a...</h2>
+        <div class='grid-details first'>
+            <img 
+                src='https://unsplash.it/400'
+                alt='Web application to track and analyze biosensor chip data'
+                class='slide-in from-left'
+            />
+            <div class='slide-in from-right'>
+            <h3>Bioinformatics Intern</h3>
+            <p>
+                I performed quality assurance tests with gFET biosensors by taking images and resistance measurements.</p>
+            <p>I also created a website to input collection of data from quality assurance testing using Python and Flask, and developed a database with SQLAlchemy for the biosensor chips data for data analysis to better understand the functionality of the chip. 
+            </p>
+            </div>
+        </div>
+        <div class='grid-details second'>
+            <div class='slide-in from-left'>
+            <h3>Software Team Lead</h3>
+            <h4><i>Medical Diagnostic Team Project - KGI</i></h4>
+            <p>I facilitated cross function communication between electronics and other 7 functional groups to determine effective detection method for cytokine release syndrome in blood cancer patients</p>
+            <p>I successfully created a medical device by collaborating with the technical groups to create a Device Master Record that explains the integration between software, hardware, and assay within the device
+            </p>
+            </div>
+            <img 
+                src='https://unsplash.it/400'
+                alt='Web application to track and analyze biosensor chip data'
+                class='slide-in from-right'
+            />
+        </div>
+        <div class='grid-details first'>
+            <img 
+                src='https://unsplash.it/400'
+                alt='Web application to track and analyze biosensor chip data'
+                class='slide-in from-left'
+            />
+            <div class='slide-in from-right'>
+            <h3>Medical Device Designer</h3>
+            <h4><i>Knee Brace Damper - UC Riverside</i></h4>
+            <p>I developed a redesign for current rehabilitation knee braces to improve effectiveness involving material selection and biomechanics.</p>
+            <p>I led team to create several 3-D CAD models of knee hinge and dampers to create FEA dynamic simulations to understand viscoelastic behavior of polymers.</p>
+            </div>
+        </div>
+        <div class='grid-details second'>
+            <div class='slide-in from-left'>
+            <h3>Research Assistant</h3>
+            <h4><i>Schlappi Lab - KGI</i></h4>
+            <p>I successfully designed a heat transfer simulation on Ansys to determine the heating rate for the reaction chamber for urinary tract infection (UTI) diagnostic device prototype.</p>
+            <p>I optimized reaction chamber design using CAD, by iterating on shape and size to sustain the amount of energy in 15 mins.</p> 
+            <p>I researched a pure phase change material to implement on UTI and COVID-19 diagnostic devices.</p>
+            </div>
+            <img 
+                src='https://unsplash.it/400'
+                alt='Web application to track and analyze biosensor chip data'
+                class='slide-in from-right'
+            />
+        </div>
+    </div>
+</main>

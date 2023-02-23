@@ -1,0 +1,88 @@
+.projects-outer-container {
+    padding: 20vh 0 0 0;
+    text-align: center;
+}
+
+.intro {
+    min-height: 75vh;
+    min-height: 75dvh;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.columns {
+    display: flex;
+}
+
+.project-header {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 72px;
+}
+
+#top-left-img {
+  position: absolute;
+  height: 45%;
+  padding: 1rem;
+  left: 0;
+}
+
+#top-right-img {
+  position: absolute;
+  height: 100%;
+  padding: 1rem;
+  right: 0;
+}
+
+#bottom-left-img {
+  position: absolute;
+  height: 70%;
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
+.hidden:hover {
+  opacity: 1;
+}
+
+.center-wh {
+  text-align: center;
+  padding: 20vh 0; 
+}
+
+.grid-details {
+    padding: 4em 0;
+    display: grid;
+    grid-gap: 10em;
+    align-items: center;
+    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
+        1em,
+        1fr
+        );
+}
+
+.from-left {
+    grid-column: 2 / 3;
+  }
+  
+  .from-right {
+    grid-column: 3 / 4;
+  }
+
+  .profile-img {
+    height: 500px;
+    width: auto;
+    border-radius: 100px;
+  }
+
+  .first {
+    background: #3f3f3f;
+    color: white;
+  }
+  .second {
+    background-color: rgb(244, 244, 244);
+  }
